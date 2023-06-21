@@ -5,31 +5,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .formacion__titulo{
     color: var(--morado-dark);
     text-align: center;
+    position: absolute;
+    top: 45%;
 }
 .formacion__div{
     display: flex;
     width: 100vw;
-
+    position: relative;
+    box-sizing: border-box;
 }
 .formacion__imagen{
     box-sizing: border-box;
-    width: 80vw;
+    width: 60vw;
+
 }
 .business{
-    translate: -8vw;
+    /* translate: -8vw; */
+    position: absolute;
+    top: 9rem;
 }
 .html-css{
-    translate: -60vw;
+    position: absolute;
+    /* translate: -60vw; */
+    top: 9rem;
+    left: 23.75rem;
 }
 .desarrollo-personal{
-    translate: -8vw;
+    position: absolute;
+    top: 62.5rem;
+    /* translate: -8vw; */
     
 }
 .principiante{
-    translate: -60vw;
+    position: absolute;
+    top: 62.5rem;
+    left: 23.75rem;
+
+    /* translate: -60vw; */
 
 }
