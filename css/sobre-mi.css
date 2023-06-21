@@ -1,0 +1,83 @@
+.sobreMi{
+    padding: 7rem 0;
+    background-color: var(--amarillo);
+    height:calc(87vh - 6vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+}
+.sobreMi__figure::before{
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: .1;
+    width: 180px;
+    height: 180px;
+    background-color: var(--morado-dark);
+    border-radius: 50%;
+}
+.sobreMi__figure::after{
+    content: '';
+    display: block;
+    position: relative;
+    bottom: 8rem;
+    left: 23rem;
+    z-index: .1;
+    width: 150px;
+    height: 150px;
+    background-color: var(--morado-elementos);
+    border-radius: 50%;
+}
+.sobreMi__foto{
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    border: solid var(--morado-dark) .8rem;
+}
+.sobreMi__titulo{
+    color: var(--morado-elementos);
+    margin-bottom: 5rem;
+}
+.sobreMi__texto{
+    width: 80vw;
+    margin-bottom: 3rem;
+}
+.sobreMi__lista{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.sobreMi__item--email::before{
+    content: '';
+    background-image: url(../assets/img/correo-electronico.png);
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    position: relative;
+    bottom: 1.2rem;
+    left: .5rem;
+}
+.sobreMi__item--github::before{
+    content: '';
+    background-image: url(../assets/img/github.png);
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    position: relative;
+    bottom: 1.2rem;
+    left: .5rem;
+}
+.sobreMi__item--linkedin::before{
+    content: '';
+    background-image: url(../assets/img/linkedin.png);
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    position: relative;
+    bottom: 1.2rem;
+    left: 1rem;
+}

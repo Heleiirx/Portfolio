@@ -1,0 +1,42 @@
+.navbar{
+    position: fixed;
+    height: 6vh;
+    box-sizing: border-box;
+    background-color: var(--lila-fondos);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__atajos{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    align-items: center;
+}
+.navbar__titulo{
+    color: var(--morado-dark);
+    font-size: 1.5rem;
+}
+.navbar__texto{
+    color: var(--morado-dark);
+    font-size: 1.5rem;
+}
+/* --------------------Inicia body portada------------------------------- */
+.portada{
+    width: 100vw;
+    height: calc(100vh - 6vh);
+    background-color: var(--lila-fondos);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.portada__titulo--profesion{
+    color: var(--morado-elementos);
+}
+.portada__titulo{
+    color: var(--morado-dark);
+}

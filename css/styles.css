@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'nightMichy';
+    src: url(../assets/fonts/NightMichyPersonalUseOnly.otf);
+}
+@font-face {
+    font-family: 'aceSans';
+    src: url(../assets/fonts/AceSansFree.otf);
+}
+@font-face {
+    font-family: 'pokefont';
+    src: url(../assets/fonts/Radhiumz.ttf);
+}
+:root{
+    --fuente-titulos: 'nightMichy', sans-serif;
+    --fuente-textos: 'aceSans', sans-serif;
+    --pokefont: 'pokefont', sans-serif;
+
+    --lila-fondos: #e3b9d6;
+    --morado-elementos: #9442ef;
+    --morado-dark: #3a2755;
+    --amarillo: #f8d88c;
+    --azul: #9cb2ee;
+    --rosa: #ff9fb9;
+    --vino: #8e0849;
+}
+html{
+    width: 100vw;
+}
+body{
+    width: 100%;
+}
+.container{
+    padding: 1rem;
+}
+/* -------------------------Textos----------------------------------- */
+.titulo{
+    font-family: var(--fuente-titulos);
+    font-size: 4.5rem;
+}
+.subtitulo{
+    font-family: var(--fuente-titulos);
+    font-size: 1.7rem;
+}
+.texto{
+    font-family: var(--fuente-textos);
+    color: var(--morado-dark);
+    font-size: 2rem;
+}
