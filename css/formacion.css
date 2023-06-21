@@ -1,0 +1,35 @@
+.formacion{
+    width: 100vw;
+    height: calc(100vh - 6vh);
+    background-color: var(--amarillo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formacion__titulo{
+    color: var(--morado-dark);
+    text-align: center;
+}
+.formacion__div{
+    display: flex;
+    width: 100vw;
+
+}
+.formacion__imagen{
+    box-sizing: border-box;
+    width: 80vw;
+}
+.business{
+    translate: -8vw;
+}
+.html-css{
+    translate: -60vw;
+}
+.desarrollo-personal{
+    translate: -8vw;
+    
+}
+.principiante{
+    translate: -60vw;
+
+}

@@ -32,14 +32,19 @@ body{
 .container{
     padding: 1rem;
 }
+.espejear{
+    transform: scaleX(-1);
+}
 /* -------------------------Textos----------------------------------- */
 .titulo{
     font-family: var(--fuente-titulos);
     font-size: 4.5rem;
+    text-align: center;
 }
 .subtitulo{
     font-family: var(--fuente-titulos);
     font-size: 1.7rem;
+    text-align: center;
 }
 .texto{
     font-family: var(--fuente-textos);
