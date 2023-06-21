@@ -25,7 +25,10 @@
   animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
 }
 .skills__card{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   position: absolute;
   background-color: var(--morado-elementos);
   width: 50vw;
@@ -35,9 +38,13 @@
   top: 10px;
   background-color: var(--morado-elementos);
 }
+.skills__imagen{
+  width: 70%;
+}
 .skills__subtitulos{
   color: var(--morado-dark);
   text-align: center;
+  font-size: 2.5rem;
 }
 .html{
   transform: rotateY(0deg) translateZ(55vw);
