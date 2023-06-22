@@ -1,0 +1,36 @@
+.hobbies{
+    width: 100vw;
+    height: calc(100vh - 6vh);
+    background-color: var(--rosa);
+}
+.hobbies__banner{
+    z-index: 10;
+    position: relative;
+    background-color: var(--lila-fondos);
+    height:10vh;
+    bottom: .2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.hobbies__titulo{
+    z-index: 11;
+    color: var(--morado-elementos);
+}
+.hobbies__body{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+    z-index: 1;
+    position: relative;
+    bottom: 15rem;
+}
+.hobbies__card{
+    width: 25rem;
+    height: 30rem;
+    background-color: var(--morado-elementos);
+    display: flex;
+    flex-direction: column;
+}

@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    z-index: 5;
 }
 .formacion__titulo{
     color: var(--morado-dark);
