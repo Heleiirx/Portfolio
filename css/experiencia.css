@@ -1,9 +1,9 @@
-/* .experiencia{
-    z-index: 100;
+.experiencia{
+    /* z-index: 100; */
     position: relative;
     width: 100vw;
     height: calc(100vh - 6vh);
-} */
+}
 .experiencia__portada{
     background-color: var(--azul);
     z-index: 100;
@@ -16,4 +16,39 @@
 .experiencia__titulo{
     color: var(--morado-dark);
     line-height: 10rem;
+}
+.experiencia__hijo1{
+    position: relative;
+}
+/* ------------------Botones---------------------------- */
+.botones{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 100;
+    bottom: 10rem;
+    width: 100vw;
+}
+.boton{
+    display: flex;
+    width: 25rem;
+    height: 9rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: var(--pokefont);
+    /* padding: 1rem; */
+    border-radius: 8rem;
+    font-size: 2rem;
+}
+.botones__repositorio{
+    background-color: var(--morado-dark);
+    border: solid .2rem white;
+    color: white;
+}
+.botones__web{
+    background-color: var(--lila-fondos);
+    border: solid .2rem var(--morado-dark);
+    color: var(--morado-dark);
 }
