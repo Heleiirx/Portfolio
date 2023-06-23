@@ -47,8 +47,18 @@
     border: solid .2rem white;
     color: white;
 }
+.botones__repositorio:hover{
+    background-color: var(--lila-fondos);
+    border: solid .2rem var(--morado-dark);
+    color: var(--morado-dark);
+}
 .botones__web{
     background-color: var(--lila-fondos);
     border: solid .2rem var(--morado-dark);
     color: var(--morado-dark);
+}
+.botones__web:hover{
+    background-color: var(--morado-dark);
+    border: solid .2rem white;
+    color: white;
 }
