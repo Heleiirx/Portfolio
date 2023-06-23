@@ -1,7 +1,8 @@
 .encriptador{
     width: 100vw;
     height: calc(100vh - 6vh);
-    background-color: var(--amarillo);
+    background: url(../assets/img/bg-encriptador.svg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +14,7 @@
     justify-content: space-around;
     height: 25vh;
     margin-top: 6rem;
+    z-index: 200;
 }
 .encriptador__titulo{
     font-size: 5rem;
