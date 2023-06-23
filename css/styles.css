@@ -35,6 +35,9 @@ body{
 .espejear{
     transform: scaleX(-1);
 }
+.not-style{
+    text-decoration: none;
+}
 /* -------------------------Textos----------------------------------- */
 .titulo{
     font-family: var(--fuente-titulos);
