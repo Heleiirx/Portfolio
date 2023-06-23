@@ -27,10 +27,59 @@
     position: relative;
     bottom: 15rem;
 }
+/* ---------------------------Estilos de cards----------------------------------- */
 .hobbies__card{
     width: 25rem;
     height: 30rem;
     background-color: var(--morado-elementos);
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    /* align-items: center; */
+}
+.hobbies__imagen{
+    background-color: grey;
+    width: 25rem;
+    height: 20rem;
+}
+.hobbies__texto{
+    font-size: 2.5rem;
+    margin: .7rem 4rem;
+}
+.hobbies__iconos{
+    display: flex;
+    box-sizing: border-box;
+    margin: 1rem 0 1rem .5rem;
+    gap: .5rem;
+        &::before{
+            content: '';
+            position: relative;
+            width: 3.5rem;
+            height: 3.5rem;
+            /* left: 13%; */
+            background: url(../assets/img/like-ig.svg);
+            background-size: cover;
+        }
+        &::after{
+            content: '';
+            position: relative;
+            width: 3.5rem;
+            height: 3.5rem;
+            left: 33%;
+            background: url(../assets/img/guardar-ig.svg);
+            background-size: cover;
+        }
+}
+/* .hobbies__iconos::after{
+    content: '';
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    left: 33%;
+    background: url(../assets/img/github.png);
+    background-size: cover;
+} */
+.hobbies__icon{
+    width: 3.5rem;
+    height: 3.5rem;
 }
