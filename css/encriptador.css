@@ -18,7 +18,7 @@
     z-index: 200;
 }
 .encriptador__titulo{
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: var(--pokefont);
     color: var(--morado-dark);
     text-align: center;
@@ -26,11 +26,12 @@
 .encriptador__texto{
     text-align: right;
     width: 50vw;
-    font-size: 3rem;
+    font-size: 4rem;
     border-right: solid .7rem;
-    padding: 0 2.5rem 0 13rem;
+    padding: 0 2.5rem 0 17rem;
+    margin-top: 4rem;
 }
 .encriptador__imagen{
     width: 90vw;
-    margin-bottom: 12rem;
+    margin-bottom: 10rem;
 }
