@@ -1,0 +1,19 @@
+/* .experiencia{
+    z-index: 100;
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 6vh);
+} */
+.experiencia__portada{
+    background-color: var(--azul);
+    z-index: 100;
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 6vh);
+    display: flex;
+    align-items: center;
+}
+.experiencia__titulo{
+    color: var(--morado-dark);
+    line-height: 10rem;
+}
