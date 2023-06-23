@@ -1,0 +1,33 @@
+.encriptador{
+    width: 100vw;
+    height: calc(100vh - 6vh);
+    background-color: var(--amarillo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.encriptador__textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25vh;
+    margin-top: 6rem;
+}
+.encriptador__titulo{
+    font-size: 5rem;
+    font-family: var(--pokefont);
+    color: var(--morado-dark);
+    text-align: center;
+}
+.encriptador__texto{
+    text-align: right;
+    width: 50vw;
+    font-size: 3rem;
+    border-right: solid .7rem;
+    padding: 0 2.5rem 0 13rem;
+}
+.encriptador__imagen{
+    width: 90vw;
+    margin-bottom: 6rem;
+}
