@@ -1,0 +1,5 @@
+.pokemart{
+    height: calc(100vh - 6vh);
+    width: 100vw;
+    background: var(--rosa);
+}

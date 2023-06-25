@@ -1,0 +1,7 @@
+.contacto{
+    width: 100vw;
+    height: calc(100vh - 6vh);
+    background-color: var(--lila-fondos);
+    z-index: 200;
+    display: flex;    
+}
