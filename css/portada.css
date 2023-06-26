@@ -4,7 +4,7 @@
     height: 6vh;
     box-sizing: border-box;
     background-color: var(--lila-fondos);
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;

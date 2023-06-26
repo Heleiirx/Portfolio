@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0rem;
+    /* gap: 0rem; */
 }
 .sobreMi__figure::before{
     content: '';
