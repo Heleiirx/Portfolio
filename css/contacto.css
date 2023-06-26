@@ -3,5 +3,60 @@
     height: calc(100vh - 6vh);
     background-color: var(--lila-fondos);
     z-index: 200;
-    display: flex;    
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; 
+    padding-top: 3rem;   
+}
+.contacto__titulo{
+    color: var(--morado-dark);
+}
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.contacto__elemento{
+    box-sizing: border-box;
+    width: 90%;
+    height: 5vh;
+    border-radius: 4vh;
+    padding: 1.2rem 0 1.2rem 2rem;
+    background-color: var(--rosa);
+    border: none;
+    font-family: var(--fuente-textos);
+    color: var(--morado-dark);
+}
+.contacto__elemento::placeholder{
+    color: var(--morado-dark);
+    opacity: .6;
+}
+.contacto__nombre, .contacto__email{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente-textos);
+}
+.contacto__mensaje{
+    height: 10vh;
+    padding: 1.2rem 0 1.2rem 2rem;
+    border-radius: 3vh;
+}
+.elemento__input{
+    width: 95%;
+    background-color: transparent;
+    border: none;
+    margin-top: 1.2rem;
+    font-family: var(--fuente-textos);
+    color: var(--morado-dark);
+}
+.elemento__input::placeholder{
+    color: var(--morado-dark);
+    opacity: .6;
+}
+.contacto__boton{
+    color: white;
+    background-color: var(--morado-dark);
+    font-size: 1.5rem;
+    font-family: var(--fuente-textos);
 }
