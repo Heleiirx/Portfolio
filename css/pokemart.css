@@ -2,4 +2,58 @@
     height: calc(100vh - 6vh);
     width: 100vw;
     background: var(--rosa);
+    overflow: hidden;
+    /* display: flex;
+    flex-direction: column;
+    z-index: 150; */
+    box-sizing: border-box;
+}
+
+.pokemart__textos{
+    width: 45vw;
+    position: absolute;
+    padding-top: 6vh;
+}
+.pokemart__titulo{
+    font-size: 6rem;
+    font-family: var(--pokefont);
+    color: var(--morado-dark);
+    text-align: right;
+}
+.pokemart__texto{
+    text-align: right;
+    width: 30vw;
+    padding-left: 15vw;
+}
+.pokemart__carousel{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    height: calc(100vh - 6vh);
+    overflow: hidden;
+    rotate: -10deg;
+}
+.pokemart__slider{
+    
+}
+.pokemart__slider-track{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    
+}
+.pokemart__slide{
+    width: 45vw;
+}
+.right{
+    position: relative;
+    translate: 5rem 0;
+}
+.left{
+    position: relative;
+    translate: -5rem 0;
+}
+.hidden{
+    translate: -30rem 0;
 }
