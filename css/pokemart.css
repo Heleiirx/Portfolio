@@ -89,6 +89,7 @@
     .pokemart{
         height: 100vh;
         padding-top: 6vh;
+        display: block;
     }
     .pokemart__textos{
         border-left: solid var(--morado-dark) .3rem;
