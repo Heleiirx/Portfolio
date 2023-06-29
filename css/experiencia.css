@@ -69,4 +69,23 @@
     .experiencia__portada{
         padding-top: 6vh;
     }
+    .botones{
+        position: absolute;
+        bottom: 5rem;
+        width: 50vw;
+    }
+    .boton{
+        width: 20vw;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8rem;
+        font-size: 1rem;
+    }
+    .botones__repositorio{
+        border: solid .1rem white;
+    }
+    .botones__web{
+        border: solid .1rem var(--morado-dark);
+    }
 }
