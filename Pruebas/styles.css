@@ -62,3 +62,50 @@
 		width: 250px;
 	}
 }
+
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacto__div{
+    display: flex;
+    flex-direction: column;
+}
+.contacto__label{
+    color: var(--morado-dark);
+    font-family: var(--fuente-textos);
+    padding-left: 1vw;
+    padding-bottom: .5vh;
+}
+.contacto__input{
+    font-family: var(--fuente-textos);
+    color: var(--morado-dark);
+    background-color: var(--rosa);
+    border: none;
+    width: 45vw;
+    height: 7vh;
+    border-radius: 4vh;
+    padding: 1vw;
+    box-sizing: border-box;
+    outline: none;
+
+    &:focus{
+        border: solid var(--morado-dark) .2rem;
+    }
+
+    &::placeholder{
+        color: var(--morado-dark);
+        opacity: .8;
+    }
+}
+.contacto__mensaje{
+    font-family: var(--fuente-textos);
+    height: 15vh;
+}
+.contacto__boton{
+    background-color: var(--morado-dark);
+    color: white;
+}

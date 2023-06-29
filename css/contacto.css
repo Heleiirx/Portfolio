@@ -7,6 +7,7 @@
     flex-direction: column;
     gap: 3rem; 
     padding-top: 3rem;   
+    box-sizing: border-box;
 }
 .contacto__titulo{
     color: var(--morado-dark);
@@ -17,66 +18,77 @@
 .contacto__body{
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 .contacto__formulario{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    justify-content: space-around;
+    height: 50vh;
 }
-.contacto__elemento{
-    box-sizing: border-box;
-    width: 90%;
-    height: 5vh;
-    border-radius: 4vh;
-    padding: 1.2rem 0 1.2rem 2rem;
-    background-color: var(--rosa);
-    border: none;
-    font-family: var(--fuente-textos);
-    color: var(--morado-dark);
-}
-.contacto__elemento::placeholder{
-    color: var(--morado-dark);
-    opacity: .6;
-}
-.contacto__nombre, .contacto__email{
+.contacto__div{
     display: flex;
     flex-direction: column;
+}
+.contacto__label{
+    color: var(--morado-dark);
     font-family: var(--fuente-textos);
+    padding-left: 1vw;
+    padding-bottom: .5vh;
+}
+.contacto__input{
+    font-family: var(--fuente-textos);
+    color: var(--morado-dark);
+    background-color: var(--rosa);
+    border: none;
+    width: 90vw;
+    height: 5vh;
+    border-radius: 3vh;
+    padding: 2vw;
+    box-sizing: border-box;
+    outline: none;
+
+    &:focus{
+        border: solid var(--morado-dark) .2rem;
+    }
+
+    &::placeholder{
+        color: var(--morado-dark);
+        opacity: .8;
+    }
 }
 .contacto__mensaje{
-    height: 10vh;
-    padding: 1.2rem 0 1.2rem 2rem;
-    border-radius: 3vh;
-}
-.elemento__input{
-    width: 95%;
-    background-color: transparent;
-    border: none;
-    margin-top: 1.2rem;
     font-family: var(--fuente-textos);
-    color: var(--morado-dark);
-}
-.elemento__input::placeholder{
-    color: var(--morado-dark);
-    opacity: .6;
+    height: 15vh;
 }
 .contacto__boton{
-    color: white;
     background-color: var(--morado-dark);
-    font-size: 1.5rem;
-    font-family: var(--fuente-textos);
+    color: white;
 }
 
 @media screen and (min-width: 1024px) {
+    .contacto{
+        padding-top: 12vh;
+    }
     .contacto__body{
         flex-direction: row;
-        display: flex;
+        gap: 2rem;
     }
     .contacto__imagen{
-        width: 50vw;
+        width: 48vw;
     }
     .contacto__formulario{
-        width: 50vw;
+        justify-content: space-between;
+        height: 60vh;
+    }
+    .contacto__input{
+        width: 45vw;
+        height: 7vh;
+        border-radius: 4vh;
+        padding: 1vw;
+    }
+    .contacto__mensaje{
+        height: 15vh;
     }
 }
