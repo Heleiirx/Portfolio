@@ -52,8 +52,8 @@
     text-align: center;
 }
 .ig-iconos{
-    padding: 1rem;
-    height: 3.5rem;
+    padding: 0 1rem;
+    height: 5rem;
     box-sizing: border-box;
 }
 /* .hobbies__iconos{
@@ -106,9 +106,6 @@
     .hobbies__card{
         width: calc(100vw/5);
         height: 60vh;
-    }
-    .hobbies__titulo{
-        /* padding-top: 3rem; */
     }
     .hobbies__texto{
         font-size: 1.5rem;

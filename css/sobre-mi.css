@@ -9,10 +9,12 @@
     /* gap: 0rem; */
 }
 .sobreMi__columnas{
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    justify-content: space-around;
 }
 .sobreMi__left{
     display: flex;
