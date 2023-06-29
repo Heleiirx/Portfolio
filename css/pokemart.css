@@ -8,10 +8,13 @@
     z-index: 150; */
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pokemart__textos{
-    width: 45vw;
+    width: 80vw;
     position: absolute;
     padding-top: 6vh;
 }
@@ -19,45 +22,69 @@
     font-size: 6rem;
     font-family: var(--pokefont);
     color: var(--morado-dark);
-    text-align: right;
+    text-align: center;
 }
 .pokemart__texto{
-    text-align: right;
-    width: 30vw;
-    padding-left: 15vw;
+    width: 40vw;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    padding-left: 3rem;
+    border-left: solid var(--morado-dark) .5rem;
 }
-/* .pokemart__carousel{
-    padding-top: 10vh;
+.pokemart__carousel{
+    align-items: center;
+    background: transparent;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
-    height: calc(100vh - 6vh);
-    overflow: hidden;
-    rotate: -10deg;
+    height: 60vh;
+    justify-content: center;
+    position: relative;
+    top: 35vh;
+    rotate: 345deg;
+    left: 3vw;
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 4))}
+}
+@keyframes negScroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(250px * 4))}
 }
 .pokemart__slider{
-    
-}
-.pokemart__slider-track{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
-    
-}
-.pokemart__slide{
-    width: 45vw;
-}
-.right{
+    background: transparent;
+    height: 15vh;
+    margin: auto;
+    overflow:hidden;
     position: relative;
-    translate: 5rem 0;
+    width: 100vw;
+    
+    &::before,
+    &::after {
+        /* @include white-gradient; */
+        content: "";
+        height: 15vh;
+        position: absolute;
+        width: 200px;
+        z-index: 2;
+    }
+    
+    .pokemart__slider-track{
+        animation: scroll 15s linear infinite;
+        display: flex;
+        gap: 1rem;
+        width: 100vw;
+    }
+    .animacion--contraria{
+        animation: negScroll 15s linear infinite;
+    }
+    
+    .pokemart__slide {
+        height: 15vh;
+        width: auto;
+    }
+
 }
-.left{
-    position: relative;
-    translate: -5rem 0;
-}
-.hidden{
-    translate: -30rem 0;
-} */
 @media screen and (min-width: 1024px) {
     .pokemart{
         height: 100vh;
