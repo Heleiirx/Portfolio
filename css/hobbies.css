@@ -38,10 +38,9 @@
     /* align-items: center; */
     place-self: center;
 }
-.desfase{
-    margin-top: 4rem;
+.desfase--abajo{
+    margin-top: 5rem;
 }
-
 .hobbies__imagen{
     background-color: grey;
     width: 25rem;
@@ -95,15 +94,25 @@
 } */
 
 @media screen and (min-width: 1024px) {
+    .hobbies{
+        height: 106vh;
+        /* padding-top: 6rem; */
+    }
     .hobbies__banner{
-        height:15vh;
+        height: 20vh;
         bottom: .2rem;
+        padding-top: 6vh;
     }
     .hobbies__card{
         width: calc(100vw/5);
-        height: 70vh;
+        height: 60vh;
     }
-
+    .hobbies__titulo{
+        /* padding-top: 3rem; */
+    }
+    .hobbies__texto{
+        font-size: 1.5rem;
+    }
     .hobbies__imagen{
         background-color: grey;
         width: 100%;
@@ -112,5 +121,11 @@
     .ig-iconos{
         padding: .5rem 1rem;
         height: 4rem;
+    }
+    .desfase--abajo{
+        margin-top: 3rem;
+    }
+    .desfase--arriba{
+        margin-bottom: 3rem;
     }
 }

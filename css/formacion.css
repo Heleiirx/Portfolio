@@ -51,8 +51,12 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .formacion{
+        height: 100vh;
+        padding-top: 12vh;
+    }
     .formacion__titulo{
-        top: 3rem;
+        top: 6rem;
         right: 12rem;
         line-height: 3.5rem;
     }

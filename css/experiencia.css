@@ -3,6 +3,7 @@
     position: relative;
     width: 100vw;
     height: calc(100vh - 6vh);
+    box-sizing: border-box;
 }
 .experiencia__portada{
     background-color: var(--azul);
@@ -63,4 +64,9 @@
     background-color: var(--morado-dark);
     border: solid .2rem white;
     color: white;
+}
+@media screen and (min-width: 1024px) {
+    .experiencia__portada{
+        padding-top: 6vh;
+    }
 }
