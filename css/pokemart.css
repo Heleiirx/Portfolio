@@ -7,6 +7,7 @@
     flex-direction: column;
     z-index: 150; */
     box-sizing: border-box;
+    position: relative;
 }
 
 .pokemart__textos{
@@ -25,7 +26,7 @@
     width: 30vw;
     padding-left: 15vw;
 }
-.pokemart__carousel{
+/* .pokemart__carousel{
     padding-top: 10vh;
     display: flex;
     flex-direction: column;
@@ -56,4 +57,80 @@
 }
 .hidden{
     translate: -30rem 0;
+} */
+@media screen and (min-width: 1024px) {
+    .pokemart{
+        height: 100vh;
+        padding-top: 6vh;
+    }
+    .pokemart__textos{
+        border-left: solid var(--morado-dark) .3rem;
+        padding-top: 6vh;
+        padding-left: 3vw;
+        left: 10vw;
+    }
+    .pokemart__titulo{
+        font-size: 4rem;
+        text-align: left;
+    }
+    .pokemart__texto{
+        text-align: left;
+        width: 30vw;
+        padding-left: 0;
+    }
+
+    .pokemart__carousel{
+        align-items: center;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        justify-content: center;
+        position: relative;
+        top: 50vh;
+        rotate: 345deg;
+        left: 3vw;
+    }
+    @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-250px * 4))}
+    }
+    @keyframes negScroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(250px * 4))}
+    }
+    .pokemart__slider{
+        background: transparent;
+        height: 100px;
+        margin: auto;
+        overflow:hidden;
+        position: relative;
+        width: 100vw;
+        
+        &::before,
+        &::after {
+            /* @include white-gradient; */
+            content: "";
+            height: 100px;
+            position: absolute;
+            width: 200px;
+            z-index: 2;
+        }
+        
+        .pokemart__slider-track{
+            animation: scroll 15s linear infinite;
+            display: flex;
+            gap: 1rem;
+            width: 100vw;
+        }
+        .animacion--contraria{
+            animation: negScroll 15s linear infinite;
+        }
+        
+        .pokemart__slide {
+            height: 100px;
+            width: 250px;
+        }
+
+    }
 }
