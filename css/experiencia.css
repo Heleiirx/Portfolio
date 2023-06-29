@@ -12,10 +12,12 @@
     height: calc(100vh - 6vh);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .experiencia__titulo{
     color: var(--morado-dark);
     line-height: 10rem;
+    text-align: center;
 }
 .experiencia__hijo1{
     position: relative;

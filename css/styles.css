@@ -25,9 +25,11 @@
 }
 html{
     width: 100vw;
+    /* overflow-x: hidden; */
 }
 body{
     width: 100%;
+    /* overflow-x: hidden; */
 }
 .container{
     padding: 1rem;
@@ -53,4 +55,15 @@ body{
     font-family: var(--fuente-textos);
     color: var(--morado-dark);
     font-size: 2rem;
+}
+@media screen and (min-width: 1024px) {
+    .titulo{
+        font-size: 3rem;
+    }
+    .subtitulo{
+        font-size: 1.7rem;
+    }
+    .texto{
+        font-size: 1.5rem;
+    }
 }

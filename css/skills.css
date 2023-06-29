@@ -84,3 +84,36 @@
 }
 .next { right: 5em; }
 .prev { left: 5em; } */
+
+@media screen and (min-width: 1024px) {
+  .skills__carusel{
+    margin-top: 6rem;
+    width: 25vw;
+    height: 400px;
+  }
+  .skills__carusel--content{
+    width: 100%;
+    height: 100%;
+  }
+  .skills__card{
+    width: 25vw;
+    height: 20vw;
+    left: 10px;
+    top: 10px;
+  }
+  .skills__imagen{
+    width: 55%;
+  }
+  .html{
+    transform: rotateY(0deg) translateZ(40vw);
+  }
+  .css{
+    transform: rotateY(90deg) translateZ(40vw);
+  }
+  .js{
+    transform: rotateY(180deg) translateZ(40vw);
+  }
+  .bootstrap{
+    transform: rotateY(270deg) translateZ(40vw);
+  }
+}

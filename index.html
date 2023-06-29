@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Portafolio</title>
         <link rel="shortcut icon" href="" />
         <link rel="stylesheet" href="css/reset.css">
@@ -43,14 +42,20 @@
             </section>
             <section class="sobreMi">
                <h1 class="titulo sobreMi__titulo">Sobre Mi</h1>
-                <figure class="sobreMi__figure"><img class="sobreMi__foto" src="assets/img/itzel.jpeg" alt="Foto Itzel"></figure>
-               <article class="texto sobreMi__texto">Hola! Soy Itzel Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odit at suscipit! Vel voluptatem, architecto sequi perspiciatis temporibus eius ratione ipsa nam obcaecati nostrum deleniti alias quidem totam cupiditate enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi et obcaecati fuga illum debitis dolores ab. Ad nesciunt nemo fuga magni repudiandae quidem deleniti ab quaerat quasi dolore, harum qui!</article>
-               <h2 class="subtitulo sobreMi__titulo">Contacto</h2>
-               <ul class="sobreMi__lista">
-                <a href="" class="not-style"><li class="texto sobreMi__item--email">Email</li></a>
-                <a href="https://github.com/Heleiirx" class="not-style"><li class="texto sobreMi__item--github">Github</li></a>
-                <a href="https://www.linkedin.com/in/itzel-romero/" class="not-style"><li class="texto sobreMi__item--linkedin">Linkedin</li></a>
-               </ul> 
+               <div class="sobreMi__columnas">
+                <div class="left">
+                    <figure class="sobreMi__figure"><img class="sobreMi__foto" src="assets/img/itzel.jpeg" alt="Foto Itzel"></figure>
+                </div>
+                <div class="right">
+                    <article class="texto sobreMi__texto">Hola! Soy Itzel Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odit at suscipit! Vel voluptatem, architecto sequi perspiciatis temporibus eius ratione ipsa nam obcaecati nostrum deleniti alias quidem totam cupiditate enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi et obcaecati fuga illum debitis dolores ab. Ad nesciunt nemo fuga magni repudiandae quidem deleniti ab quaerat quasi dolore, harum qui!</article>
+                    <h2 class="subtitulo sobreMi__titulo">Contacto</h2>
+                    <ul class="sobreMi__lista">
+                     <a href="" class="not-style"><li class="texto sobreMi__item--email">Email</li></a>
+                     <a href="https://github.com/Heleiirx" class="not-style"><li class="texto sobreMi__item--github">Github</li></a>
+                     <a href="https://www.linkedin.com/in/itzel-romero/" class="not-style"><li class="texto sobreMi__item--linkedin">Linkedin</li></a>
+                    </ul> 
+                </div>
+               </div>
             </section>
             <section class="skills">
                 <h1 class="titulo skills__titulo">Skills</h1>
@@ -74,15 +79,15 @@
                       </div>
                     </div>
                 </figure>
-                <div class="next">Next</div>
-                <div class="prev">Prev</div>
+                <!-- <div class="next">Next</div>
+                <div class="prev">Prev</div> -->
             </section>
             <section class="formacion">
                 <div class="formacion__div">
                     <img src="assets/img/business-espejeado.svg" alt="" class="formacion__imagen espejear business">
                     <img src="assets/img/html-css-espejeado.svg" alt="" class="formacion__imagen espejear html-css">
                 </div>
-                <h1 class="titulo formacion__titulo">Formacion Academica</h1>
+                <h1 class="titulo formacion__titulo">Formacion <br> Academica</h1>
                 <div class="formacion__div">
                     <img src="assets/img/desarrollo-personal.svg" alt="" class="formacion__imagen desarrollo-personal">
                     <img src="assets/img/principiante-programacion.svg" alt="" class="formacion__imagen principiante">
@@ -93,86 +98,78 @@
                     <h1 class="titulo hobbies__titulo">Hobbies</h1>
                 </div>
                 <div class="hobbies__body">
-                    <div class="hobbies__card right">
+                    <div class="hobbies__card desfase">
                         <p class="texto hobbies__texto">Ver anime</p>
                         <div class="hobbies__imagen"></div>
                         <!-- <img src="" alt="" class="hobbies__imagen"> -->
-                        <div class="hobbies__iconos">
-                            <img src="assets/img/coment-ig.svg" alt="" class="hobbies__icon">
-                            <img src="assets/img/share-ig.svg" alt="" class="hobbies__icon">
-                            <!-- <img src="" alt="" class="hobbies__icon"> -->
-                        </div>
+                        <img src="assets/img/iconos-ig.svg" alt="" class="ig-iconos">
+                        <!-- <div class="hobbies__iconos">
+                        </div> -->
                     </div>
                     <div class="hobbies__card">
                         <p class="texto hobbies__texto">Ver anime</p>
                         <div class="hobbies__imagen"></div>
                         <!-- <img src="" alt="" class="hobbies__imagen"> -->
-                        <div class="hobbies__iconos">
+                        <img src="assets/img/iconos-ig.svg" alt="" class="ig-iconos">
+                        <!-- <div class="hobbies__iconos">
                             <img src="assets/img/coment-ig.svg" alt="" class="hobbies__icon">
                             <img src="assets/img/share-ig.svg" alt="" class="hobbies__icon">
-                            <!-- <img src="" alt="" class="hobbies__icon"> -->
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="hobbies__card right">
+                    <div class="hobbies__card desfase">
                         <p class="texto hobbies__texto">Videojuegos</p>
-                        <!-- <img class="hobbies__post" src="assets/img/itzel.jpeg" alt=""> -->
                         <div class="hobbies__imagen"></div>
-                        <div class="hobbies__iconos">
+                        <img src="assets/img/iconos-ig.svg" alt="" class="ig-iconos">
+                        <!-- <div class="hobbies__iconos">
                             <img class="hobbies__icon" src="assets/img/coment-ig.svg" alt="">
                             <img class="hobbies__icon" src="assets/img/share-ig.svg" alt="">
-                            <!-- <img class="hobbies__icon" src="assets/img/github.png" alt=""> -->
-                            <!-- <img class="hobbies__icon" src="assets/img/github.png" alt=""> -->
-                        </div>
+                        </div> -->
                     </div>
                     <div class="hobbies__card">
                         <p class="texto hobbies__texto">Voleibol</p>
                         <div class="hobbies__imagen"></div>
-                        <!-- <img src="" alt="" class="hobbies__imagen"> -->
-                        <div class="hobbies__iconos">
+                        <img src="assets/img/iconos-ig.svg" alt="" class="ig-iconos">
+                        <!-- <div class="hobbies__iconos">
                             <img src="assets/img/coment-ig.svg" alt="" class="hobbies__icon">
                             <img src="assets/img/share-ig.svg" alt="" class="hobbies__icon">
-                            <!-- <img src="" alt="" class="hobbies__icon"> -->
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="hobbies__card right">
+                    <div class="hobbies__card desfase">
                         <p class="texto hobbies__texto">Maquillaje</p>
                         <div class="hobbies__imagen"></div>
                         <!-- <img src="" alt="" class="hobbies__imagen"> -->
-                        <div class="hobbies__iconos">
+                        <img src="assets/img/iconos-ig.svg" alt="" class="ig-iconos">
+                        <!-- <div class="hobbies__iconos">
                             <img src="assets/img/coment-ig.svg" alt="" class="hobbies__icon">
                             <img src="assets/img/share-ig.svg" alt="" class="hobbies__icon">
-                            <!-- <img src="" alt="" class="hobbies__icon"> -->
-                        </div>
+                        </div> -->
                     </div>
                     <div class="hobbies__card">
                         <p class="texto hobbies__texto">Ver anime</p>
                         <div class="hobbies__imagen"></div>
-                        <!-- <img src="" alt="" class="hobbies__imagen"> -->
-                        <div class="hobbies__iconos">
+                        <img src="assets/img/iconos-ig.svg" alt="" class="ig-iconos">
+                        <!-- <div class="hobbies__iconos">
                             <img src="assets/img/coment-ig.svg" alt="" class="hobbies__icon">
                             <img src="assets/img/share-ig.svg" alt="" class="hobbies__icon">
-                            <!-- <img src="" alt="" class="hobbies__icon"> -->
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="hobbies__card right">
+                    <div class="hobbies__card desfase">
                         <p class="texto hobbies__texto">Confeccion</p>
                         <div class="hobbies__imagen"></div>
-                        <!-- <img src="" alt="" class="hobbies__imagen"> -->
-                        <div class="hobbies__iconos">
+                        <img src="assets/img/iconos-ig.svg" alt="" class="ig-iconos">
+                        <!-- <div class="hobbies__iconos">
                             <img src="assets/img/coment-ig.svg" alt="" class="hobbies__icon">
                             <img src="assets/img/share-ig.svg" alt="" class="hobbies__icon">
-                            <!-- <img src="" alt="" class="hobbies__icon"> -->
-                        </div>
+                        </div> -->
                     </div>
                     <div class="hobbies__card">
                         <p class="texto hobbies__texto">Musica</p>
                         <div class="hobbies__imagen"></div>
-                        <!-- <img src="" alt="" class="hobbies__imagen"> -->
-                        <div class="hobbies__iconos">
+                        <img src="assets/img/iconos-ig.svg" alt="" class="ig-iconos">
+                        <!-- <div class="hobbies__iconos">
                             <img src="assets/img/coment-ig.svg" alt="" class="hobbies__icon">
                             <img src="assets/img/share-ig.svg" alt="" class="hobbies__icon">
-                            <!-- <img src="" alt="" class="hobbies__icon"> -->
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -225,29 +222,31 @@
                         </div>
                     </div>
                 </div>
-                <div class="botones"> 
+                <!-- <div class="botones"> 
                     <a href="https://heleiirx.github.io/encriptador/" class="boton botones__repositorio">Ir a Encriptador</a>
                     <a href="https://github.com/Heleiirx/Portfolio" class="boton botones__web">Ir al repositorio</a>
-                </div>
+                </div> -->
             </section>
             <section class="contacto">
                 <h1 class="titulo contacto__titulo">Contacto</h1>
-                <img src="assets/img/contacto.webp" alt="">
-                <form action="" class="contacto__formulario">
-                    <div class="contacto__elemento contacto__nombre">
-                        <label for="nombre">Nombre</label>
-                        <input class="elemento__input" type="text" placeholder="Itzel Vargas" name="nombre">
-                    </div>
-                    <div class="contacto__elemento contacto__email">
-                        <label for="email">Email</label>
-                        <input class="elemento__input" type="email" placeholder="itzelvargas2002@gmail.com" name="email">
-                    </div>
-                    <input class="contacto__elemento" type="text" placeholder="Asunto">
-                    <div class="contacto__elemento contacto__mensaje">
-                        <textarea class="elemento__input" placeholder="Mensaje" rows="10"></textarea>
-                    </div>
-                    <button class="contacto__elemento contacto__boton">Enviar mensaje</button>
-                </form>
+                <div class="contacto__body">
+                    <img src="assets/img/contacto.webp" alt="" class="contacto__imagen">
+                    <form action="" class="contacto__formulario">
+                        <div class="contacto__elemento contacto__nombre">
+                            <label for="nombre">Nombre</label>
+                            <input class="elemento__input" type="text" placeholder="Itzel Vargas" name="nombre">
+                        </div>
+                        <div class="contacto__elemento contacto__email">
+                            <label for="email">Email</label>
+                            <input class="elemento__input" type="email" placeholder="itzelvargas2002@gmail.com" name="email">
+                        </div>
+                        <input class="contacto__elemento" type="text" placeholder="Asunto">
+                        <div class="contacto__elemento contacto__mensaje">
+                            <textarea class="elemento__input" placeholder="Mensaje" rows="10"></textarea>
+                        </div>
+                        <button class="contacto__elemento contacto__boton">Enviar mensaje</button>
+                    </form>
+                </div>
             </section>
     </body>
 </html>

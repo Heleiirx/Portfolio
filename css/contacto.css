@@ -11,6 +11,13 @@
 .contacto__titulo{
     color: var(--morado-dark);
 }
+.contacto__imagen{
+    width: 100vw;
+}
+.contacto__body{
+    display: flex;
+    flex-direction: column;
+}
 .contacto__formulario{
     display: flex;
     flex-direction: column;
@@ -59,4 +66,17 @@
     background-color: var(--morado-dark);
     font-size: 1.5rem;
     font-family: var(--fuente-textos);
+}
+
+@media screen and (min-width: 1024px) {
+    .contacto__body{
+        flex-direction: row;
+        display: flex;
+    }
+    .contacto__imagen{
+        width: 50vw;
+    }
+    .contacto__formulario{
+        width: 50vw;
+    }
 }

@@ -23,7 +23,6 @@
 .formacion__imagen{
     box-sizing: border-box;
     width: 60vw;
-
 }
 .business{
     /* translate: -8vw; */
@@ -49,4 +48,30 @@
 
     /* translate: -60vw; */
 
+}
+
+@media screen and (min-width: 1024px) {
+    .formacion__titulo{
+        top: 3rem;
+        right: 12rem;
+        line-height: 3.5rem;
+    }
+    .formacion__imagen{
+        width: 30vw;
+    }
+    .business{
+        top: 2rem;
+    }
+    .html-css{
+        top: 2rem;
+        left: 18rem;
+    }
+    .desarrollo-personal{
+        top: 15rem;
+        left: 41rem;
+    }
+    .principiante{
+        top: 15rem;
+        left: 58rem;    
+    }
 }

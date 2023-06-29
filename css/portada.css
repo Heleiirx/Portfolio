@@ -41,3 +41,11 @@
 .portada__titulo{
     color: var(--morado-dark);
 }
+@media screen and (min-width: 1024px) {
+    .navbar{
+        height: 8vh;
+    }
+    .portada{
+        height: 100vh;
+    }
+}

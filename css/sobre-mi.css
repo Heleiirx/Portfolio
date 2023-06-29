@@ -2,12 +2,34 @@
     padding: 7rem 0;
     background-color: var(--amarillo);
     height:calc(87vh - 6vh);
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;  */
+    /* gap: 0rem; */
+}
+.sobreMi__columnas{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 0rem; */
+    box-sizing: border-box;
 }
-.sobreMi__figure::before{
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.right{
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.sobreMi__figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .sobreMi__figure::before{
     content: '';
     display: block;
     position: absolute;
@@ -28,7 +50,7 @@
     height: 150px;
     background-color: var(--morado-elementos);
     border-radius: 50%;
-}
+} */
 .sobreMi__foto{
     width: 50vw;
     height: 50vw;
@@ -42,6 +64,7 @@
 .sobreMi__texto{
     width: 80vw;
     margin-bottom: 3rem;
+    display: flex;
 }
 .sobreMi__lista{
     display: flex;
@@ -80,4 +103,31 @@
     position: relative;
     bottom: 1.2rem;
     left: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobreMi{
+        padding: 2rem 0;
+    }
+    .sobreMi__columnas{
+        flex-direction: row;
+        align-items: center;
+    }
+    .left{
+
+    }
+    .sobreMi__figure{
+        width: 30vw;
+    }
+    .sobreMi__foto{
+        width: 30vw;
+        height: 30vw;
+    }
+    .sobreMi__titulo{
+        margin: 0;
+    }
+    .sobreMi__texto{
+        width: 55vw;
+        height: 40vh;
+    }
 }

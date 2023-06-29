@@ -1,8 +1,10 @@
 .encriptador{
+    box-sizing: border-box;
     width: 100vw;
     height: calc(100vh - 6vh);
     background: url(../assets/img/bg-encriptador.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,4 +36,31 @@
 .encriptador__imagen{
     width: 90vw;
     margin-bottom: 10rem;
+}
+@media screen and (min-width: 1024px) {
+    .encriptador{
+        background: url(../assets/img/pc-encriptador-bg.svg);
+        flex-direction: row-reverse;
+        align-items: initial;
+        justify-content: space-between;
+    }
+    .encriptador__textos{
+        width: 45%;
+        height: 10vh;
+        padding: 5rem 2rem;
+    }
+    .encriptador__titulo{
+        font-size: 4rem;
+    }
+    .encriptador__texto{
+        width: 30vw;
+        font-size: 2rem;
+        border-right: solid .7rem;
+        padding: 0 2rem  0 10rem;
+        margin-top: .5rem;
+    }
+    .encriptador__imagen{
+        width: 100%;
+        margin-bottom: -3rem;
+    }
 }
