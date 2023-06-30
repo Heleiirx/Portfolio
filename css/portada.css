@@ -12,6 +12,9 @@
 .navbar__atajos{
     visibility: hidden;
 }
+.navbar__atajos>a:hover{
+    color: var(--amarillo);
+}
 .navbar__titulo{
     color: var(--morado-dark);
     font-size: 1.5rem;

@@ -85,7 +85,13 @@
     .botones__repositorio{
         border: solid .1rem white;
     }
+    .botones__repositorio:hover{
+        border: solid .1rem var(--morado-dark);
+    }
     .botones__web{
         border: solid .1rem var(--morado-dark);
+    }
+    .botones__web:hover{
+        border: solid .1rem white;
     }
 }

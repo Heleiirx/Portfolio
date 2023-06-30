@@ -71,6 +71,9 @@
   font-size: 3rem;
   color: var(--morado-elementos);
 }
+.heart:hover{
+  color: var(--morado-dark);
+}
 
 @media screen and (min-width: 1024px) {
   .skills{
