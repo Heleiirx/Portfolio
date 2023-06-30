@@ -47,7 +47,18 @@
   text-align: center;
   font-size: 2.5rem;
 }
-
+.html{
+  transform: rotateY(0deg) translateZ(55vw);
+}
+.css{
+  transform: rotateY(90deg) translateZ(55vw);
+}
+.js{
+  transform: rotateY(180deg) translateZ(55vw);
+}
+.bootstrap{
+  transform: rotateY(270deg) translateZ(55vw);
+}
 @keyframes carousel {
   0%,  10%    {transform: translateZ(-35vw) rotateY(0deg);}
   10%, 25%   { transform: translateZ(-35vw) rotateY(-90deg); }

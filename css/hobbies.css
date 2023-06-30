@@ -2,6 +2,7 @@
     width: 100vw;
     height: calc(100vh - 6vh);
     background-color: var(--rosa);
+    box-sizing: border-box;
 }
 .hobbies__banner{
     z-index: 10;
@@ -35,7 +36,6 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    /* align-items: center; */
     place-self: center;
 }
 .desfase--abajo{
@@ -68,7 +68,7 @@
     }
     .hobbies__card{
         width: calc(100vw/5);
-        height: 60vh;
+        height: 70vh;
     }
     .hobbies__texto{
         font-size: 1.5rem;
