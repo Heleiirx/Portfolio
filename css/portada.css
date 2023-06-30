@@ -10,7 +10,7 @@
     align-items: center;
 }
 .navbar__atajos{
-    display: none;
+    visibility: hidden;
 }
 .navbar__titulo{
     color: var(--morado-dark);
@@ -39,6 +39,7 @@
 }
 @media screen and (min-width: 1024px) {
     .navbar__atajos{
+        visibility: visible;
         width: 60vw;
         display: flex;
         justify-content: space-around;
