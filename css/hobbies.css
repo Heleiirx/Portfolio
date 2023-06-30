@@ -56,47 +56,10 @@
     height: 5rem;
     box-sizing: border-box;
 }
-/* .hobbies__iconos{
-    display: flex;
-    box-sizing: border-box;
-    margin: 1rem 0 1rem .5rem;
-    gap: .5rem;
-        &::before{
-            content: '';
-            position: relative;
-            width: 3.5rem;
-            height: 3.5rem;
-            background: url(../assets/img/like-ig.svg);
-            background-size: cover;
-        }
-        &::after{
-            content: '';
-            position: relative;
-            width: 3.5rem;
-            height: 3.5rem;
-            left: 33%;
-            background: url(../assets/img/guardar-ig.svg);
-            background-size: cover;
-        }
-} */
-/* .hobbies__iconos::after{
-    content: '';
-    position: relative;
-    width: 3.5rem;
-    height: 3.5rem;
-    left: 33%;
-    background: url(../assets/img/github.png);
-    background-size: cover;
-} */
-/* .hobbies__icon{
-    width: 3.5rem;
-    height: 3.5rem;
-} */
 
 @media screen and (min-width: 1024px) {
     .hobbies{
         height: 106vh;
-        /* padding-top: 6rem; */
     }
     .hobbies__banner{
         height: 20vh;

@@ -25,29 +25,23 @@
     width: 60vw;
 }
 .business{
-    /* translate: -8vw; */
     position: absolute;
     top: 9rem;
 }
 .html-css{
     position: absolute;
-    /* translate: -60vw; */
     top: 9rem;
     left: 23.75rem;
 }
 .desarrollo-personal{
     position: absolute;
     top: 70rem;
-    /* translate: -8vw; */
     
 }
 .principiante{
     position: absolute;
     top: 70rem;
     left: 23.75rem;
-
-    /* translate: -60vw; */
-
 }
 
 @media screen and (min-width: 1024px) {

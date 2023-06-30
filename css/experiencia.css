@@ -1,5 +1,4 @@
 .experiencia{
-    /* z-index: 100; */
     position: relative;
     width: 100vw;
     height: calc(100vh - 6vh);
@@ -41,7 +40,6 @@
     align-items: center;
     text-decoration: none;
     font-family: var(--pokefont);
-    /* padding: 1rem; */
     border-radius: 8rem;
     font-size: 2rem;
 }
