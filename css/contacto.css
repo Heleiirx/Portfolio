@@ -70,7 +70,9 @@
 .contacto__boton:hover{
     transform: scale(1.05);
 }
-
+.contacto__boton:disabled{
+    background-color: var(--rosa);
+}
 @media screen and (min-width: 1024px) {
     .contacto{
         padding-top: 12vh;

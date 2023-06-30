@@ -47,7 +47,7 @@
   text-align: center;
   font-size: 2.5rem;
 }
-.html{
+/* .html{
   transform: rotateY(0deg) translateZ(55vw);
 }
 .css{
@@ -58,7 +58,7 @@
 }
 .bootstrap{
   transform: rotateY(270deg) translateZ(55vw);
-}
+} */
 @keyframes carousel {
   0%,  10%    {transform: translateZ(-35vw) rotateY(0deg);}
   10%, 25%   { transform: translateZ(-35vw) rotateY(-90deg); }

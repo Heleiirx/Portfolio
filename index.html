@@ -69,7 +69,7 @@
             <section class="skills">
                 <h1 class="titulo skills__titulo">Skills</h1>
                 <figure class="skills__carusel">
-                    <div class="skills__carusel--content">
+                    <div class="skills__carusel--content" id="carousel">
                       <div class="skills__card html">
                         <h2 class="subtitulo skills__subtitulos">HTML</h2>
                         <img class="skills__imagen" src="assets/img/html.svg" alt="Computadora con logo html">
@@ -89,10 +89,10 @@
                     </div>
                 </figure>
                 <div class="skills__navegation">
-                    <i class="heart bi bi-suit-heart"></i>
-                    <i class="heart bi bi-suit-heart"></i>
-                    <i class="heart bi bi-suit-heart"></i>
-                    <i class="heart bi bi-suit-heart"></i>
+                    <i class="heart bi bi-suit-heart" onclick="cambioSlide('-35vw', '0deg', event)"></i>
+                    <i class="heart bi bi-suit-heart" onclick="cambioSlide('-35vw', '-90deg', event)"></i>
+                    <i class="heart bi bi-suit-heart" onclick="cambioSlide('-35vw', '-180deg', event)"></i>
+                    <i class="heart bi bi-suit-heart" onclick="cambioSlide('-35vw', '-270deg', event)"></i>
                 </div>
                 <!-- <div class="next">Next</div>
                 <div class="prev">Prev</div> -->
@@ -265,15 +265,15 @@
                     <form action="" class="contacto__formulario">
                         <div class="contacto__div">
                             <label class="contacto__label" for="nombre">Nombre</label>
-                            <input class="contacto__input" type="text" placeholder="Itzel Vargas" name="nombre" required maxlength="50">
+                            <input class="contacto__input" type="text" placeholder="Itzel Vargas" name="nombre" required maxlength="50" onkeyup="habilitarBoton()">
                         </div>
                         <div class="contacto__div">
                             <label class="contacto__label" for="email">Email</label>
-                            <input class="contacto__input" type="email" placeholder="itzelvargas2002@gmail.com" name="email" required>
+                            <input class="contacto__input" type="email" placeholder="itzelvargas2002@gmail.com" name="email" required onkeyup="habilitarBoton()">
                         </div>
-                        <input class="contacto__input" type="text" placeholder="Asunto" required>
+                        <input class="contacto__input" type="text" placeholder="Asunto" required onkeyup="habilitarBoton()">
                         <div class="">
-                            <textarea class="contacto__input contacto__mensaje" placeholder="Mensaje" rows="10" required maxlength="300"></textarea>
+                            <textarea class="contacto__input contacto__mensaje" id="textarea" placeholder="Mensaje" rows="10" required maxlength="300" onkeyup="habilitarBoton()"></textarea>
                         </div>
                         <button class="contacto__input contacto__boton" type="submit" id="botonSubmit" disabled>Enviar mensaje</button>
                     </form>
