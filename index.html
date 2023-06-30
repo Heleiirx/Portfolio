@@ -16,12 +16,13 @@
         <link rel="stylesheet" href="css/encriptador.css">
         <link rel="stylesheet" href="css/pokemart.css">
         <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="css/footer.css">
 
     </head>
     <body>
         <header>
             <nav class="container navbar">
-                <h4 class="titulo navbar__titulo">ITZEL</h4>
+                <a class="titulo navbar__titulo not-style" href="#portada">ITZEL</a>
                 <div class="container navbar__atajos">
                     <a class="texto not-style" href="#sobreMi">Sobre mi</a>
                     <a class="texto not-style" href="#skills">Skills</a>
@@ -41,6 +42,7 @@
                 </div>
             </nav>
         </header>
+            <a name="portada"></a> 
             <section class="portada">
                 <h2 class="subtitulo portada__titulo--profesion">Estudiante Desarrollo Web</h2>
                 <h1 class="titulo portada__titulo">PORTAFOLIO</h1>
@@ -56,9 +58,9 @@
                     <article class="texto sobreMi__texto">Hola! Soy Itzel Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odit at suscipit! Vel voluptatem, architecto sequi perspiciatis temporibus eius ratione ipsa nam obcaecati nostrum deleniti alias quidem totam cupiditate enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi et obcaecati fuga illum debitis dolores ab. Ad nesciunt nemo fuga magni repudiandae quidem deleniti ab quaerat quasi dolore, harum qui!</article>
                     <h2 class="subtitulo sobreMi__titulo">Contacto</h2>
                     <ul class="sobreMi__lista">
-                     <a href="" class="not-style"><li class="texto sobreMi__item--email">Email</li></a>
-                     <a href="https://github.com/Heleiirx" class="not-style"><li class="texto sobreMi__item--github">Github</li></a>
-                     <a href="https://www.linkedin.com/in/itzel-romero/" class="not-style"><li class="texto sobreMi__item--linkedin">Linkedin</li></a>
+                     <a href="" class="not-style"><li class="texto sobreMi__item sobreMi__item--email">Email</li></a>
+                     <a href="https://github.com/Heleiirx" class="not-style"><li class="texto sobreMi__item sobreMi__item--github">Github</li></a>
+                     <a href="https://www.linkedin.com/in/itzel-romero/" class="not-style"><li class="texto sobreMi__item sobreMi__item--linkedin">Linkedin</li></a>
                     </ul> 
                 </div>
                </div>
@@ -257,20 +259,24 @@
                     <form action="" class="contacto__formulario">
                         <div class="contacto__div">
                             <label class="contacto__label" for="nombre">Nombre</label>
-                            <input class="contacto__input" type="text" placeholder="Itzel Vargas" name="nombre">
+                            <input class="contacto__input" type="text" placeholder="Itzel Vargas" name="nombre" required maxlength="50">
                         </div>
                         <div class="contacto__div">
                             <label class="contacto__label" for="email">Email</label>
-                            <input class="contacto__input" type="email" placeholder="itzelvargas2002@gmail.com" name="email">
+                            <input class="contacto__input" type="email" placeholder="itzelvargas2002@gmail.com" name="email" required>
                         </div>
-                        <input class="contacto__input" type="text" placeholder="Asunto">
+                        <input class="contacto__input" type="text" placeholder="Asunto" required>
                         <div class="">
-                            <textarea class="contacto__input contacto__mensaje" placeholder="Mensaje" rows="10"></textarea>
+                            <textarea class="contacto__input contacto__mensaje" placeholder="Mensaje" rows="10" required maxlength="300"></textarea>
                         </div>
-                        <button class="contacto__input contacto__boton">Enviar mensaje</button>
+                        <button class="contacto__input contacto__boton" type="submit" id="botonSubmit" disabled>Enviar mensaje</button>
                     </form>
                 </div>
             </section>
+            <footer class="footer">
+                <h1 class="texto footer__texto">Desarrollado por itzel romero vargas - jun 2023</h1>
+            </footer>
+        <script src="js/main.js"></script>
     </body>
 </html>
 

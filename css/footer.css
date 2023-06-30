@@ -1,0 +1,12 @@
+.footer{
+    width: 100vw;
+    height: 7vh;
+    background-color: var(--rosa);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer__texto{
+    font-size: 1rem;
+}
