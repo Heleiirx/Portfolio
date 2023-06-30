@@ -85,6 +85,14 @@
     }
 
 }
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 4))}
+}
+@keyframes negScroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(250px * 4))}
+}
 @media screen and (min-width: 1024px) {
     .pokemart{
         height: 100vh;
@@ -105,8 +113,8 @@
         text-align: left;
         width: 30vw;
         padding-left: 0;
+        border: none;
     }
-
     .pokemart__carousel{
         align-items: center;
         background: transparent;
@@ -119,14 +127,7 @@
         rotate: 345deg;
         left: 3vw;
     }
-    @keyframes scroll {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(calc(-250px * 4))}
-    }
-    @keyframes negScroll {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(calc(250px * 4))}
-    }
+
     .pokemart__slider{
         background: transparent;
         height: 100px;

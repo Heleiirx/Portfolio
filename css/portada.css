@@ -10,11 +10,7 @@
     align-items: center;
 }
 .navbar__atajos{
-    width: 60vw;
-    display: flex;
-    justify-content: space-around;
-    gap: 1.5rem;
-    align-items: center;
+    display: none;
 }
 .navbar__titulo{
     color: var(--morado-dark);
@@ -42,6 +38,13 @@
     color: var(--morado-dark);
 }
 @media screen and (min-width: 1024px) {
+    .navbar__atajos{
+        width: 60vw;
+        display: flex;
+        justify-content: space-around;
+        gap: 1.5rem;
+        align-items: center;
+    }
     .navbar{
         height: 8vh;
     }

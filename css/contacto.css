@@ -65,6 +65,10 @@
 .contacto__boton{
     background-color: var(--morado-dark);
     color: white;
+    transition: 1s;
+}
+.contacto__boton:hover{
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 1024px) {

@@ -55,6 +55,7 @@ body{
     font-family: var(--fuente-textos);
     color: var(--morado-dark);
     font-size: 2rem;
+    line-height: 2.1rem;
 }
 @media screen and (min-width: 1024px) {
     .titulo{
@@ -65,5 +66,6 @@ body{
     }
     .texto{
         font-size: 1.5rem;
+        line-height: 1.9rem;
     }
 }
