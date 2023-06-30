@@ -1,4 +1,4 @@
-document.getElementsByName("portada").click;
+document.getElementById("portada").click();
 // function cargar() {
 //   console.log(portada);
 //   portada.click();
