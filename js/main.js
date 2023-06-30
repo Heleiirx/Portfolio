@@ -1,5 +1,3 @@
-// document.getElementById("portada").click();
-
 //--------------------------Habilitar boton contacto-----------------------------------------
 const botonContacto = document.getElementById("botonSubmit");
 const textArea = document.getElementById("textarea");
