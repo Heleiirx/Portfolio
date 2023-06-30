@@ -1,4 +1,9 @@
-
+document.getElementsByName("portada").click;
+// function cargar() {
+//   console.log(portada);
+//   portada.click();
+// }
+// portada.addEventListener("onload", cargar);
 //--------------------------Habilitar boton contacto-----------------------------------------
 const botonContacto = document.getElementById("botonSubmit");
 const textArea = document.getElementById("textarea");
