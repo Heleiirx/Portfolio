@@ -27,11 +27,12 @@
 .business{
     position: absolute;
     top: 9rem;
+    left: -5rem;
 }
 .html-css{
     position: absolute;
     top: 9rem;
-    left: 23.75rem;
+    left: 11rem;
 }
 .desarrollo-personal{
     position: absolute;
@@ -42,6 +43,16 @@
     position: absolute;
     top: 70rem;
     left: 23.75rem;
+}
+.emprendimiento{
+    position: absolute;
+    top: 9rem;
+    left: 24rem;
+}
+.front{
+    position: absolute;
+    top: 95rem;
+    left: 8rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -58,11 +69,12 @@
         width: 30vw;
     }
     .business{
-        top: 2rem;
+        top: 0;
+        left: -7rem;
     }
     .html-css{
-        top: 2rem;
-        left: 18rem;
+        top: -4rem;
+        left: 23rem;
     }
     .desarrollo-personal{
         top: 15rem;
@@ -70,6 +82,20 @@
     }
     .principiante{
         top: 15rem;
-        left: 58rem;    
+        left: 55rem;    
+    }
+    .emprendimiento{
+        top: -2rem;
+        left: 8rem;
+    }
+    .front{
+        top: 16rem;
+        left: 23rem;
+    }
+    .desfase--abajo{
+        margin-top: 3rem;
+    }
+    .desfase--arriba{
+        margin-bottom: 3rem;
     }
 }
