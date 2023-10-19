@@ -1,0 +1,49 @@
+.hstube{
+    padding-top: 6vh;
+    background-color: var(--amarillo);
+    width: 100vw;
+    height: calc(100vh - 6vh);
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: -10;
+}
+.hstube_container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-around;
+}
+.hstube_carousel{
+    height: 130vh;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+.hstube_phone{
+    height: 40vh;
+}
+.desplazamiento-top{
+    margin-top: 3rem;
+}
+.hstube_desktop{
+    width: 40rem;
+    align-self: center;
+}
+.hstube_title{
+    font-size: 3.5rem;
+    padding-left: 4rem;
+    width: 30vw;
+    font-family: var(--pokefont);
+    color: var(--morado-dark);
+    text-align: left;
+}
+.hstube_text{
+    width: 65rem;
+    margin-top: 2rem;
+    padding-left: 4rem;
+    box-sizing: border-box;
+}
+.hstube_botones{
+    left: 50vw;
+}

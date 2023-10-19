@@ -48,22 +48,26 @@
   font-size: 2.5rem;
 }
 .html{
-  transform: rotateY(0deg) translateZ(55vw);
+  transform: rotateY(0deg) translateZ(50vw);
 }
 .css{
-  transform: rotateY(90deg) translateZ(55vw);
+  transform: rotateY(72deg) translateZ(50vw);
 }
 .js{
-  transform: rotateY(180deg) translateZ(55vw);
+  transform: rotateY(144deg) translateZ(50vw);
 }
 .bootstrap{
-  transform: rotateY(270deg) translateZ(55vw);
+  transform: rotateY(216deg) translateZ(50vw);
+}
+.react{
+  transform: rotateY(288deg) translateZ(50vw);
 }
 @keyframes carousel {
-  0%,  10%    {transform: translateZ(-35vw) rotateY(0deg);}
-  10%, 25%   { transform: translateZ(-35vw) rotateY(-90deg); }
-  35%, 50%   { transform: translateZ(-35vw) rotateY(-180deg); }
-  60%, 75%   { transform: translateZ(-35vw) rotateY(-270deg); }
+  0%,  5%    {transform: translateZ(-35vw) rotateY(0deg);}
+  5%,  20%    {transform: translateZ(-35vw) rotateY(72deg);}
+  25%, 40%   { transform: translateZ(-35vw) rotateY(-144deg); }
+  45%, 60%   { transform: translateZ(-35vw) rotateY(-216deg); }
+  65%, 80%   { transform: translateZ(-35vw) rotateY(-288deg); }
   85%, 100%  { transform: translateZ(-35vw) rotateY(-360deg); }
 }
 
@@ -102,15 +106,18 @@
     width: 55%;
   }
   .html{
-    transform: rotateY(0deg) translateZ(40vw);
+    transform: rotateY(0deg) translateZ(30vw);
   }
   .css{
-    transform: rotateY(90deg) translateZ(40vw);
+    transform: rotateY(72deg) translateZ(30vw);
   }
   .js{
-    transform: rotateY(180deg) translateZ(40vw);
+    transform: rotateY(144deg) translateZ(30vw);
   }
   .bootstrap{
-    transform: rotateY(270deg) translateZ(40vw);
+    transform: rotateY(216deg) translateZ(30vw);
+  }
+  .react{
+    transform: rotateY(288deg) translateZ(30vw);
   }
 }

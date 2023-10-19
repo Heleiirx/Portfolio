@@ -8,12 +8,122 @@
     position: relative;
     z-index: 5;
 }
+.formacion_linea{
+    position: absolute;
+    top: 62vh;
+    width: 90vw;
+    height: .2rem;
+    background-color: var(--morado-dark);
+    z-index: 0;
+}
+.formacion_main{
+    margin-top: 30vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente-textos);
+    z-index: 10;
+}
+.formacion_programaOne{
+    margin-top: 1rem;
+    width: 55vw;
+    height: 5.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--morado-elementos);
+    align-self: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-top: .2rem solid var(--morado-elementos);
+    &>img{
+        width: 5rem;
+        margin-left: 1rem;
+    }
+}
 .formacion__titulo{
     color: var(--morado-dark);
     text-align: center;
-    position: absolute;
-    top: 50rem;
 }
+.formacion_texto{
+    font-weight: bold;
+    margin-top: .5rem;
+}
+.formacion_fechas{
+    color: var(--morado-dark);
+}
+.formacion_certificados{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    position: relative;
+}
+.formacion_certificado{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    &::before{
+        content: '';
+        width: 4rem;
+        height: 4rem;
+        background-size: cover;
+        position: absolute;
+        align-self: center;
+        top: -4.5rem;
+    }
+}
+.formacion_circulo{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    background-color: red;
+    align-self: center;
+}
+#prepa{
+    color: var(--morado-dark);
+    &>div{
+        background-color: var(--morado-dark);
+    }
+    &::before{
+        background-image: url(../assets/img/ico-prepa.png);
+    }
+}
+.formacion_one{
+    color: var(--morado-elementos);
+    &>div{
+        background-color: var(--morado-elementos);
+    }
+}
+#desarrolloP::before{
+    background-image: url(../assets/img/ico-desarrollo.png);
+}
+#principianteProg::before{
+    background-image: url(../assets/img/ico-porgramacion.png);
+}
+#business::before{
+    background-image: url(../assets/img/ico-business.png);
+}
+#frontEnd::before{
+    background-image: url(../assets/img/ico-frontEnd.png);
+}
+#emprendimiento::before{
+    background-image: url(../assets/img/ico-emprendimiento.png);
+}
+#react::before{
+    background-image: url(../assets/img/ico-react.svg);
+}
+#sqlCoursera{
+    color: #2A7AE4;
+    &>div{
+        background-color: #2A7AE4;
+    }
+    &::before{
+        background-image: url(../assets/img/ico-sql.png);
+    }
+}
+
+
 .formacion__div{
     display: flex;
     width: 100vw;
@@ -65,7 +175,7 @@
         right: 12rem;
         line-height: 3.5rem;
     }
-    .formacion__imagen{
+    /* .formacion__imagen{
         width: 30vw;
     }
     .business{
@@ -97,5 +207,5 @@
     }
     .desfase--arriba{
         margin-bottom: 3rem;
-    }
+    } */
 }

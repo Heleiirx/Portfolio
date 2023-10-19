@@ -51,3 +51,45 @@
     left: 50%;
     border-color: #2E2E2E transparent transparent transparent;
 }
+
+
+/* The alert message box */
+.alert {
+    display: none;
+    position: fixed;
+    bottom: 5vh;
+    left: 33vw;
+    padding: 20px;
+    background-color: var(--morado-dark);
+    font-family: var(--fuente-textos);
+    letter-spacing: .1rem; 
+    color: white;
+    margin-bottom: 15px;
+    animation: FadeOut 5s ease 0s 1 normal forwards;
+}
+.alertIn{
+    display: block;  
+}
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  } 
+  .closebtn:hover {
+    color: black;
+  }
+
+  @keyframes FadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}

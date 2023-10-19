@@ -28,3 +28,19 @@ function habilitarBoton(){
       // carousel.style.animationPlayState="paused";
       carousel.style.transform= `translateZ(${desplazamiento}) rotateY(${deg})`;    
     }
+
+// ----------------------------------  Copiar correo al portapapeles -----------------------------------------
+
+function alertEmail (){
+  console.log('email');
+  navigator.clipboard.writeText("itzelvargas2002@gmail.com");
+  const modal = document.getElementById("modal");
+  modal.classList.remove("alertIn");
+  modal.classList.add("alertIn");
+  console.log('alert')
+
+
+}
+
+// const email = document.getElementById("email").addEventListener(onclick, () =>{
+// })

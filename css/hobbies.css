@@ -3,6 +3,7 @@
     height: calc(100vh - 6vh);
     background-color: var(--rosa);
     box-sizing: border-box;
+    
 }
 .hobbies__banner{
     z-index: 10;
