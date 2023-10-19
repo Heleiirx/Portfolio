@@ -123,48 +123,6 @@
     }
 }
 
-
-.formacion__div{
-    display: flex;
-    width: 100vw;
-    position: relative;
-    box-sizing: border-box;
-}
-.formacion__imagen{
-    box-sizing: border-box;
-    width: 60vw;
-}
-.business{
-    position: absolute;
-    top: 9rem;
-    left: -5rem;
-}
-.html-css{
-    position: absolute;
-    top: 9rem;
-    left: 11rem;
-}
-.desarrollo-personal{
-    position: absolute;
-    top: 70rem;
-    
-}
-.principiante{
-    position: absolute;
-    top: 70rem;
-    left: 23.75rem;
-}
-.emprendimiento{
-    position: absolute;
-    top: 9rem;
-    left: 24rem;
-}
-.front{
-    position: absolute;
-    top: 95rem;
-    left: 8rem;
-}
-
 @media screen and (min-width: 1024px) {
     .formacion{
         height: 100vh;
@@ -175,37 +133,4 @@
         right: 12rem;
         line-height: 3.5rem;
     }
-    /* .formacion__imagen{
-        width: 30vw;
-    }
-    .business{
-        top: 0;
-        left: -7rem;
-    }
-    .html-css{
-        top: -4rem;
-        left: 23rem;
-    }
-    .desarrollo-personal{
-        top: 15rem;
-        left: 41rem;
-    }
-    .principiante{
-        top: 15rem;
-        left: 55rem;    
-    }
-    .emprendimiento{
-        top: -2rem;
-        left: 8rem;
-    }
-    .front{
-        top: 16rem;
-        left: 23rem;
-    }
-    .desfase--abajo{
-        margin-top: 3rem;
-    }
-    .desfase--arriba{
-        margin-bottom: 3rem;
-    } */
 }
